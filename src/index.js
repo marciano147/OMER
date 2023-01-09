@@ -1,17 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+function changeTitle() {
+  let title = document.getElementById("welcome");
+  title.innerHTML = "HEHEHEHE THIS IS NOT A REAL WEBISTE <br> AND THE BUTTON IS NOT FUN";
+  title.style.color = "black";
+}
+
+function changeText(){
+ let texts =  Array.from(document.getElementsByClassName("morfi"))
+  texts.forEach(element => { 
+      element.textContent = "You did this to me"
+      element.style.color= "purple"
+      element.style.fontSize= "90px"
+      
+  });
+}
+
+function noTrump(){
+  let body = document.getElementsByTagName("body")
+  body[0].style.backgroundImage = "url('https://i.ytimg.com/vi/gsIxP-c83ok/maxresdefault.jpg')"
+
+}
+ReactDOM.render(document.getElementById('root'));

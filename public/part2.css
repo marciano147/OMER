@@ -1,0 +1,59 @@
+
+table, th, td {
+  border:1px solid black;
+  width:30%;
+  text-align: center;
+  font-weight: bold;
+  color: purple;
+}
+p{
+    color: black;
+    font-size: x-large;
+    font-style: italic;
+}
+
+h1 { 
+    color:white;
+    font-style: oblique;
+    text-align: left;
+
+} 
+h2, h3{ 
+    color:black;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+span { 
+    color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    
+} 
+a { color:green
+    
+} 
+img { width: 200px;
+      height: 200px;
+      align-items:baseline;
+}
+
+ul, ol, li {
+    color: brown;
+    font-weight: bold;
+    text-decoration:underline;
+}
+body {
+    background-image: url('https://static01.nyt.com/images/2022/11/15/multimedia/14dc-trump-oman2-print/14dc-trump-oman-1-7cd7-superJumbo.jpg');
+  }
+
+.red-button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
